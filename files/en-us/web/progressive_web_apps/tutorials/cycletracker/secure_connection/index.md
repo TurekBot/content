@@ -91,6 +91,6 @@ Note that you can [configure a custom domain for a GitHub pages site](https://do
 
 ## Up next
 
-We are able to view a styled, static version of the CycleTracker application shell. Now that we know how to view the application we are about to build, let's get to building it. Up next, we create `app.js`, the JavaScript that converts our static design into a fully functional web application that stores data locally, on the users machine.
+We are able to view a styled, static version of the CycleTracker application shell. Now that we know how to view the application we are about to build, let's get to building it. Up next, we create `app.js`, the JavaScript that converts our static design into a fully functional web application that stores data locally, on the user's machine.
 
 {{PreviousMenuNext("Web/Progressive_web_apps/Tutorials/CycleTracker/HTML_and_CSS", "Web/Progressive_web_apps/Tutorials/CycleTracker/JavaScript_functionality", "Web/Progressive_web_apps/Tutorials/CycleTracker")}}
