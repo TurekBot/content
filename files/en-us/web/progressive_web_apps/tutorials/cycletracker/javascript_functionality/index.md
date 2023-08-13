@@ -37,7 +37,7 @@ Existing users will have existing data in local storage. When a user comes back 
 
 1. Retrieve the data from local storage
 2. Create a "`<h2>Past periods</h2>`" header
-3. Create an {{HTMLelement("ul")}}
+3. Create a {{HTMLelement("ul")}}
 4. Populate the `<ul>` with an {{HTMLelement("li")}} for every menstrual cycle saved in local storage.
 
 This is a beginner-level demonstration application. The goal is to teach the basics of converting a web application to a PWA. This application does not contain necessary features like form validation, error checking, edit or delete functionality, etc. You are welcome to expand on the features that are covered and tailor the lesson and applications to your learning goals and application needs.
