@@ -124,7 +124,7 @@ For a more robust application, other [client side storage](/en-US/docs/Learn/Jav
 Limitations of `localStorage` include:
 
 - Limited data storage: `localStorage` is limited to 5MB of data per origin. Our storage needs are much less than that.
-- Stores strings only: `localStorage` stores data as string key and string value pairs. Our start and end dates will be stored as a JSON object parsed as a string. For more complex data, a more robust storage mechanism like IDB would be required.
+- Stores strings only: `localStorage` stores data as string key and string value pairs. Our start and end dates will be stored as a JSON object parsed as a string. For more complex data, a more robust storage mechanism like IndexDB would be required.
 - Can cause poor performance: Getting and setting from and to local storage is done synchronously on the main thread. When the main thread is occupied, apps are not responsive and appear frozen. With the limited nature of this app, this blip of bad user experience is negligible.
 - Only available to the main thread: In addition to the performance issues of occupying the main thread, service workers do not have access to the main thread, meaning the service worker can't directly set or get the local storage data.
 
