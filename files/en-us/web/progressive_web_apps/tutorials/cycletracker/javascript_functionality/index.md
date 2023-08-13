@@ -22,7 +22,7 @@ At the end of this lesson, you will have a fully functional app. In future lesso
 When a user visits the page, we check if they have existing data stored in local storage. The first time a user visits the page, there won't be any data. When a new user selects two dates and submits the form, we need to:
 
 1. Create a "`<h2>Past periods</h2>`" header
-2. Create an {{HTMLelement("ul")}}
+2. Create a {{HTMLelement("ul")}}
 3. Populate the `<ul>` with a single {{HTMLelement("li")}} containing information about that cycle
 4. Save the data to local storage
 
