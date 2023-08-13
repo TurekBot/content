@@ -130,7 +130,7 @@ Limitations of `localStorage` include:
 
 #### Retrieve, append, sort, and re-store data
 
-Because we're using localStorage, which comprises of a single string, we retrieve the JSON string of data from local storage, parse the JSON data (if any), push the new pair of dates to the existing array, sort the dates, parse the JSON object back into a string, and save that string back to `localStorage`.
+Because we're using localStorage, which is a single string, we retrieve the JSON string of data from local storage, parse the JSON data (if any), push the new pair of dates to the existing array, sort the dates, parse the JSON object back into a string, and save that string back to `localStorage`.
 
 This process requires the creation of a few functions:
 
