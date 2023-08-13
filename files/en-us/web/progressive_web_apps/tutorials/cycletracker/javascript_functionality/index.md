@@ -217,8 +217,7 @@ function formatDate(dateString) {
   const date = new Date(dateString);
 
   // Format the date into a locale-specific string.
-  // include your locale for better user experience
-  return date.toLocaleDateString("en-UK", { timeZone: "UTC" });
+  return date.toLocaleDateString();
 }
 ```
 
